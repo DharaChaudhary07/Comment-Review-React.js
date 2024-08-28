@@ -1,0 +1,21 @@
+
+
+
+img{
+  border-radius: 70px;
+}
+
+.rating {
+  display: flex;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.star {
+  color: #cdcdcd;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #ffbf00;
+}
